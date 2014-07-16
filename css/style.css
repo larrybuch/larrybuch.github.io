@@ -1,0 +1,52 @@
+/*font-family: "rooney-web",sans-serif;*/
+/*font-family: "rooney-sans",serif;*/
+
+body {
+/*  font-size: 28px;*/
+  font-family: "rooney-sans",serif;
+  line-height: 1.5;
+  background-color: #FFDB24;
+}
+
+h1 {
+  display: inline-block;
+  margin: 2px 2px 30px 2px;
+  /*background-color: #f1c40f;*/
+}
+
+h1 span {
+  background-color: #fff;
+  padding: 5px;
+}
+
+h2 {
+  display: inline;
+}
+
+.link {
+  text-decoration: none;
+  color: #444;
+}
+
+.link:hover {
+  /*color: white;*/
+}
+
+.row {
+  display: inline-block;
+  padding: 5px;
+  margin: 2px;
+  background-color: #fff;
+  transition: .1s all;
+}
+
+.row:hover {
+  background-color: #FFDB24;
+}
+
+.date {
+  font-size: .5em;
+  padding-right: 5px;
+}
+
+/*dark blue #34495e*/
