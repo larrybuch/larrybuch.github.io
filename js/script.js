@@ -14,22 +14,6 @@ function showInfo(data, tabletop) {
 }
 
 function visualizeIt(data){
-  // var wrapper = d3.select("#the-goods .second");
-
-  // // refactor this so rows are being wrapped in links, not the other way around
-  // var links = wrapper.selectAll(".link")
-  //   .data(data)
-  //   .enter()
-  //   .append("a")
-  //   .attr("href", function(d){ return d.url; })
-  //   .attr("target", "_blank");
-
-  // var rows = links.append("div")
-  //   .attr("class", function(d){ return d.tag + " row"; })
-  //   .text(function(d){ return d.headline; });
-
-  // var wit = rows.append("span")
-  //   .text(function(d){if (d.wit) {return " with " + d.wit;} });
 
   nestedData = d3.nest()
     .key(function(d){ return d.tag; })
@@ -66,11 +50,7 @@ function visualizeIt(data){
   var wit = rows.append("span")
     .text(function(d){if (d.wit) {return " with " + d.wit;} });
 
-  console.log(nestedData);
-
-  // var body = d3.select('body')
-  //   .append("section")
-  //   .attr("id", "")
+  console.log("I have no idea what I'm doing.");
 
 }
 

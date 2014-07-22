@@ -3,7 +3,7 @@
 
 body {
   font-size: 15px;
-  font-family: "rooney-sans",serif;
+  font-family: "rooney-sans",sans-serif;
   line-height: 1.5;
   /*background-color: #FFDB24;*/
   padding: 0 15px 15px 15px;
@@ -85,7 +85,14 @@ section a {
   border-bottom-color: rgba(0,0,0,.8);
 }
 
+.top .row span {
+  padding-right:10px;
+}
+
 
 @media only screen and (max-width: 479px) {
-
+  section .first, section .second {
+    display: block;
+    width: 100%;
+  }
 }
