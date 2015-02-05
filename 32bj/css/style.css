@@ -1,0 +1,90 @@
+body {
+  font-family: "rooney-web", serif;
+  background-color: #FFDB24;
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 3.5em;
+  line-height: 1.2; 
+  margin: 2em 0 1em 0;
+}
+
+h1 span {
+  opacity: .2;
+}
+
+.kicker {
+  font-size: 16px;
+  font-family: "rooney-sans", sans-serif;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(0,0,0,.5);
+}
+
+a:hover {
+  border-bottom: 2px solid black;
+}
+
+header {
+  margin-bottom: 60px;
+}
+
+header img{
+  max-width: 640px;
+  position: absolute;
+  top: 0;
+}
+
+.section {
+  margin-bottom: 80px;
+  border-top: 1px solid rgba(0,0,0,.2);
+  padding-top: 30px;
+}
+
+ul {
+  list-style: disc;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.class-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  /*font-family: "rooney-sans", sans-serif;*/
+}
+
+.instructor {
+  opacity: .4;
+}
+
+.date {
+  opacity: .4;
+}
+
+footer {
+  margin: 4em 0;
+  color: rgba(0,0,0,.2);
+}
+
+.assignment-text {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "rooney-sans", sans-serif;
+  padding-right: 10px;
+}
+
